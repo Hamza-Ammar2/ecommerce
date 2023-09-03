@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="menu" src="images/icon-menu.svg">
+    <h1>Sneakers</h1>
+    <ul>
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <div style="flex: 1;"></div>
+    <img class="cart" src="images/icon-cart.svg">
+    <img class="user" src="images/image-avatar.png">
+  </header>
+
+  <main>
+    <div id="light-box" class="box">
+      <div class="big-pic big-pic-1">
+        <button class="add"><img src="images/icon-next.svg"></button>
+        <button class="sub"><img src="images/icon-previous.svg"></button>
+      </div>
+      <div class="sm-pic-1">
+        <div class="layer"></div>
+      </div>
+      <div class="sm-pic-2"></div>
+      <div class="sm-pic-3"></div>
+      <div class="sm-pic-4"></div>
+    </div>
+    <div class="view">
+      <p style="color: hsl(26, 100%, 55%); font-weight: bold;">SNEAKER COMPANY</p>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p>
+        These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+
+      <div class="price-control">
+        <div class="price">
+          <h2>$125.00</h2>
+          <p>50%</p>
+        </div>
+        <div style="flex: 1;"></div>
+        <h4 class="old-price">$250.00</h4>
+      </div>
+      
+      <div class="bt-cont">
+        <div class="inc">
+          <button id="dec"><img src="images/icon-minus.svg"></button>
+          <p id="amount">0</p>
+          <button id="inc"><img src="images/icon-plus.svg"></button>
+        </div>
+
+        <button class="add-cart"><img src="images/icon-cart.svg"> Add to cart</button>
+      </div>
+    </div>
+  </main>
+
+  
+  
+  <script src="index.js"></script>
+</body>
+</html>
